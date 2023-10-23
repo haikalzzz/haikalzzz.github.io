@@ -163,41 +163,28 @@
             <!-- API Testing-->
             <section class="resume-section" id="api_test">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
+                    <h2 class="mb-5">API Testing</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <p>
+                                For API testing, i use Postman tools to testing the API of the websites. I collect the API request of Secondhand websites from documentation <a href="https://secondhand.binaracademy.org/api-docs/index.html">here</a>.
+                                Then I add the request API from the documentation into Postman. I also use a randomizer to generate random name, email, product name etc for the request body. So I don't need to repeat changed it manually.
+                                You can see the video below when i checking and running all the collection.
+                            </p>
+                            <iframe 
+                                width="560" 
+                                height="315" 
+                                src="https://www.youtube.com/embed/cAyHyxf2wtE?si=2DfjjHoLtoMpKNKL" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                            <p>
+                                <br>After Running all the collection, i create the report summary from the API using newman and HTMLEXTRA. You can see the report from previous running <a href="assets/docs/Haikal_Zamzami_Web-2023-07-29-11-09-01-509-0.html">here</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
@@ -205,7 +192,7 @@
             <!-- Performance Testing -->
             <section class="resume-section" id="jmeter">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
+                    <h2 class="mb-5">Performance Testing</h2>
                     <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
                     <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
@@ -215,47 +202,14 @@
             <!-- Automation Testing -->
             <section class="resume-section" id="automation">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
+                    <h2 class="mb-5">Automation Testing</h2>
+                    <p>
+                        After i do a manual testing, then i made the automation testing using Katalon Studio Tools. I saved the project on my local PC and in the Gitlab repository.
+                        I create the automation script using gherkin syntax and groovy language. This automation is based on test case and scenario I made before. You can see my
+                        gherkin script <a href="https://gitlab.com/haikalzamzami/secondhand-web-kelompok3/-/tree/main/Include/features?ref_type=heads">here</a>, 
+                        the groovy script <a href="https://gitlab.com/haikalzamzami/secondhand-web-kelompok3/-/tree/main/Include/scripts/groovy/stepDefinition?ref_type=heads">here</a>,
+                        and the report automation <a href="assets/docs/20230930_164457.html">here</a>.
+                    </p>
                 </div>
             </section>
         </div>
