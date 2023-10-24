@@ -41,17 +41,17 @@
             <!-- Projects Overview -->
             <section class="resume-section" id="project1">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Secondhand Website Manual <br>and Automation Projects</h2>
+                    <h2 class="mb-5">Secondhand Website and Mobile Manual <br>and Automation Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <p>In this project, i am doing manual and automation testing of the <a href="https://secondhand.binaracademy.org/">secondhand</a> website. 
-                               Secondhand is an ecommerce website to buy or sell a second-hand items from the people, made by Binar Academy for practice use only. 
-                               In this website, the user can be both a buyer or seller. As a seller, user can do add, edit, update and delete the products that they want to sell. 
+                            <p>In this project, i am doing manual and automation testing of the <a href="https://secondhand.binaracademy.org/">secondhand</a> website and mobile app. 
+                               Secondhand is an ecommerce website to buy or sell a second-hand items from the people, made by Binar Academy for practice use only.
+                               In this website and aplication, the user can be both a buyer or seller. As a seller, user can do add, edit, update and delete the products that they want to sell. 
                                And if another user is interested in their product, the buyer can make an offering price. And the seller can decide to take or not the offer. 
                                If the seller has agree with the price offering, the seller can accept that and then call the buyer via WhatsApp. And if not, the seller can deny the offer.
                             </p>
-                            <p>For manual testing, I create a test scenario and test case from the flow Secondhand of the website using google spreadsheet. 
-                               I also made a bug report from the bug that I found on the website. Then, I am doing Performance testing using Jmeter, And API testing using Postman.
+                            <p>For manual testing, I create a test scenario and test case from the flow Secondhand of the website and application using google spreadsheet. 
+                               I also made a bug report from the bug that I found on the website and app. Then, I am doing Performance testing using Jmeter, And API testing using Postman.
                                After that I create automation script using Katalon Studio tool.
                             </p>
                         </div>
@@ -59,6 +59,9 @@
                     <!-- Carousel -->
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/img/projects/mobile_secondhand1.png" class="d-block w-100" alt="...">
+                            </div>  
                           <div class="carousel-item active">
                             <img src="assets/img/projects/web_secondhand2.png" class="d-block w-100" alt="...">
                           </div>
@@ -92,7 +95,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <p>
-                                I have made a Test Case and Scenario of the Secondhand website using Google spreadsheet. For the test case and scenario document, 
+                                I have made a Test Case and Scenario of the Secondhand website and application using Google spreadsheet. For the test case and scenario document, 
                                 in general they contain several pieces of information like: 
                                 <ul>
                                     <li>Scenario ID</li>
@@ -104,7 +107,8 @@
                                     <li>Actual and Exected Result</li>
                                     <li>Pre-condition</li>
                                 </ul>
-                                You can see my Test Scenario/Case document <a href="https://docs.google.com/spreadsheets/d/1sYrfsE-e7xQ0MEITcaksihj3PGag2GV7_x1_q5rKiI0/edit#gid=0" target="_blank" rel="noopener noreferrer">here</a> 
+                                You can see my Test Scenario/Case document of the website <a href="https://docs.google.com/spreadsheets/d/1sYrfsE-e7xQ0MEITcaksihj3PGag2GV7_x1_q5rKiI0/edit#gid=0" target="_blank" rel="noopener noreferrer">here</a> 
+                                and for the mobile here <a href="//docs.google.com/spreadsheets/d/1sYrfsE-e7xQ0MEITcaksihj3PGag2GV7_x1_q5rKiI0/edit#gid=1369668526"target="_blank" rel="noopener noreferrer">here.</a> 
                             </p>
                         </div>
                     </div>
@@ -167,7 +171,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <p>
-                                For API testing, i use Postman tools to testing the API of the websites. I collect the API request of Secondhand websites from documentation <a href="https://secondhand.binaracademy.org/api-docs/index.html">here</a>.
+                                For API testing, i use Postman tools to testing the API of the websites and application. I collect the API request of Secondhand websites from documentation <a href="https://secondhand.binaracademy.org/api-docs/index.html">here</a>.
                                 Then I add the request API from the documentation into Postman. I also use a randomizer to generate random name, email, product name etc for the request body. So I don't need to repeat changed it manually.
                                 You can see the video below when i checking and running all the collection.
                             </p>
@@ -181,7 +185,8 @@
                                 allowfullscreen>
                             </iframe>
                             <p>
-                                <br>After Running all the collection, i create the report summary from the API using newman and HTMLEXTRA. You can see the report from previous running <a href="assets/docs/Haikal_Zamzami_Web-2023-07-29-11-09-01-509-0.html">here</a>
+                                <br>After Running all the collection, i create the report summary from the API using newman and HTMLEXTRA. You can see the report from previous running for API secondhand website <a href="assets/docs/Haikal_Zamzami_Web-2023-07-29-11-09-01-509-0.html">here</a>.
+                                    and for API mobile app <a href="assets/docs/Haikal_Zamzami_Mobile-2023-07-28-05-53-51-063-0.html">here</a>.
                             </p>
                         </div>
                     </div>
@@ -206,10 +211,13 @@
                     <p>
                         After i do a manual testing, then i made the automation testing using Katalon Studio Tools. I saved the project on my local PC and in the Gitlab repository.
                         I create the automation script using gherkin syntax and groovy language. This automation is based on test case and scenario I made before. You can see my
-                        gherkin script <a href="https://gitlab.com/haikalzamzami/secondhand-web-kelompok3/-/tree/main/Include/features?ref_type=heads">here</a>, 
-                        the groovy script <a href="https://gitlab.com/haikalzamzami/secondhand-web-kelompok3/-/tree/main/Include/scripts/groovy/stepDefinition?ref_type=heads">here</a>,
-                        and the report automation <a href="assets/docs/20230930_164457.html">here</a>.
-                    </p>
+                        katalon project repository from website automation <a href="https://gitlab.com/haikalzamzami/secondhand-web-kelompok3">here</a>, and for the mobile
+                        <a href="https://gitlab.com/haikalzamzami/secondhand-app-kelompok3">here</a>, and this is the example of the katalon report automation <a href="assets/docs/20230930_164457.html">here</a>.
+                        <br>
+                        This video below i will run an add new product feature in katalon studio.
+                    </p>    
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dGKe9BAh1cs?si=_VZ5A0i_BUdXlysB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                    
                 </div>
             </section>
         </div>
